@@ -20,7 +20,6 @@ Designed as a realistic lab that mirrors production ETL workflows.
 - Python
 - Postgres (Airflow metadata)
 
----
 
 ---
 
