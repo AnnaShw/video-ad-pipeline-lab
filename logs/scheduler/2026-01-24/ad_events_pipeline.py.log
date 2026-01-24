@@ -986,3 +986,24 @@ ModuleNotFoundError: No module named 'ad_events'
 [2026-01-24T20:34:57.575+0000] {logging_mixin.py:188} INFO - [2026-01-24T20:34:57.575+0000] {dag.py:3089} INFO - Sync 1 DAGs
 [2026-01-24T20:34:57.582+0000] {logging_mixin.py:188} INFO - [2026-01-24T20:34:57.582+0000] {dag.py:3947} INFO - Setting next_dagrun for as_events_pipeline to None, run_after=None
 [2026-01-24T20:34:57.592+0000] {processor.py:183} INFO - Processing /opt/project/dags/ad_events_pipeline.py took 0.065 seconds
+[2026-01-24T20:35:27.878+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/project/dags/ad_events_pipeline.py
+[2026-01-24T20:35:27.878+0000] {processor.py:830} INFO - Processing file /opt/project/dags/ad_events_pipeline.py for tasks to queue
+[2026-01-24T20:35:27.880+0000] {logging_mixin.py:188} INFO - [2026-01-24T20:35:27.880+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/project/dags/ad_events_pipeline.py
+[2026-01-24T20:35:27.892+0000] {processor.py:840} INFO - DAG(s) 'as_events_pipeline' retrieved from /opt/project/dags/ad_events_pipeline.py
+[2026-01-24T20:35:27.917+0000] {logging_mixin.py:188} INFO - [2026-01-24T20:35:27.917+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-24T20:35:27.924+0000] {logging_mixin.py:188} INFO - [2026-01-24T20:35:27.924+0000] {dag.py:3947} INFO - Setting next_dagrun for as_events_pipeline to None, run_after=None
+[2026-01-24T20:35:27.934+0000] {processor.py:183} INFO - Processing /opt/project/dags/ad_events_pipeline.py took 0.063 seconds
+[2026-01-24T20:35:58.119+0000] {processor.py:161} INFO - Started process (PID=184) to work on /opt/project/dags/ad_events_pipeline.py
+[2026-01-24T20:35:58.119+0000] {processor.py:830} INFO - Processing file /opt/project/dags/ad_events_pipeline.py for tasks to queue
+[2026-01-24T20:35:58.120+0000] {logging_mixin.py:188} INFO - [2026-01-24T20:35:58.120+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/project/dags/ad_events_pipeline.py
+[2026-01-24T20:35:58.127+0000] {processor.py:840} INFO - DAG(s) 'as_events_pipeline' retrieved from /opt/project/dags/ad_events_pipeline.py
+[2026-01-24T20:35:58.146+0000] {logging_mixin.py:188} INFO - [2026-01-24T20:35:58.146+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-24T20:35:58.153+0000] {logging_mixin.py:188} INFO - [2026-01-24T20:35:58.153+0000] {dag.py:3947} INFO - Setting next_dagrun for as_events_pipeline to None, run_after=None
+[2026-01-24T20:35:58.161+0000] {processor.py:183} INFO - Processing /opt/project/dags/ad_events_pipeline.py took 0.046 seconds
+[2026-01-24T20:36:28.402+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/project/dags/ad_events_pipeline.py
+[2026-01-24T20:36:28.402+0000] {processor.py:830} INFO - Processing file /opt/project/dags/ad_events_pipeline.py for tasks to queue
+[2026-01-24T20:36:28.405+0000] {logging_mixin.py:188} INFO - [2026-01-24T20:36:28.404+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/project/dags/ad_events_pipeline.py
+[2026-01-24T20:36:28.416+0000] {processor.py:840} INFO - DAG(s) 'as_events_pipeline' retrieved from /opt/project/dags/ad_events_pipeline.py
+[2026-01-24T20:36:28.442+0000] {logging_mixin.py:188} INFO - [2026-01-24T20:36:28.442+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-01-24T20:36:28.452+0000] {logging_mixin.py:188} INFO - [2026-01-24T20:36:28.452+0000] {dag.py:3947} INFO - Setting next_dagrun for as_events_pipeline to None, run_after=None
+[2026-01-24T20:36:28.460+0000] {processor.py:183} INFO - Processing /opt/project/dags/ad_events_pipeline.py took 0.065 seconds
