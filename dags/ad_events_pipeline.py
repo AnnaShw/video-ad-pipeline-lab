@@ -6,7 +6,9 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.empty import EmptyOperator
 
-from src.ad_events.tasks import compute_metrics, extract_events, transform_events 
+from src.ad_events.operators.extract_events_operator import ExtractEventsOperator
+from src.ad_events.operators.transform_events_operator import TransformEventsOperator
+from src.ad_events.operators.compute_metrics_operator import ComputeMetricsOperator
 
 default_args = {
     "owner": "data-platform",
@@ -25,19 +27,16 @@ with DAG(
 ) as dag:
     start = EmptyOperator(task_id="start")
 
-    t_extract = PythonOperator(
+    t_extract = ExtractEventsOperator(
         task_id="extract_events",
-        python_callable=extract_events,
     )
 
-    t_transform = PythonOperator(
+    t_transform = TransformEventsOperator(
         task_id="transform_events",
-        python_callable=transform_events,
     )
 
-    t_metrics = PythonOperator(
+    t_metrics = ComputeMetricsOperator(
         task_id="compute_metrics",
-        python_callable=compute_metrics,
     )
 
     end = EmptyOperator(task_id="end")
