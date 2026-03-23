@@ -17,7 +17,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id="as_events_pipeline",
+    dag_id="ad_events_pipeline",
     description="Video ad events pipeline (mock -> metrics)",
     default_args=default_args,
     start_date=datetime(2025, 1, 1),

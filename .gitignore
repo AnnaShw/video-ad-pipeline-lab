@@ -1,1 +1,13 @@
 RUNNING_LOCALLY.md
+
+# Logs
+*.log
+logs/
+
+# Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.cache/
