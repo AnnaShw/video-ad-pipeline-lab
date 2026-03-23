@@ -6,9 +6,9 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.empty import EmptyOperator
 
-from src.ad_events.operators.extract_events_operator import ExtractEventsOperator
-from src.ad_events.operators.transform_events_operator import TransformEventsOperator
-from src.ad_events.operators.compute_metrics_operator import ComputeMetricsOperator
+from operators.extract_events_operator import ExtractEventsOperator
+from operators.transform_events_operator import TransformEventsOperator
+from operators.compute_metrics_operator import ComputeMetricsOperator
 
 default_args = {
     "owner": "data-platform",
