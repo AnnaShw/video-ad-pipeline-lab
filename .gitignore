@@ -11,3 +11,9 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .cache/
+
+# Local Environment and Editor Settings
+venv/
+.env
+.vscode/
+.idea/
